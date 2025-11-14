@@ -14,6 +14,7 @@ print("\n Loading dataset...")
 data = pd.read_csv("student_data.csv")
 print(f"Dataset loaded successfully with {data.shape[0]} rows and {data.shape[1]} columns.\n")
 
+#Update model code and dashboard features
 # Drop irrelevant columns
 drop_cols = [
     "Application mode", "Application order", "Daytime/evening attendance",
