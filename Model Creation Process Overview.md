@@ -28,7 +28,7 @@ This model combines multiple decision trees to improve prediction stability and 
 
 The Random Forest model was trained using the training data to learn patterns that differentiate between dropouts, enrolled students, and graduates.
 
-The model’s performance was initially assessed using a baseline accuracy score of 77%.
+The model’s performance was initially assessed using a baseline accuracy score of 73%.
 
 5. Model Tuning
 
@@ -36,7 +36,7 @@ GridSearchCV was used for hyperparameter tuning.
 
 The best parameters found were n_estimators=100, max_depth=None, and min_samples_split=5.
 
-The tuned model improved accuracy to 78%.
+The tuned model improved accuracy to 74%.
 
 6. Model Evaluation
 
