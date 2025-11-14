@@ -17,7 +17,7 @@ Install Python from:
 
 During installation, ensure you check:
 
-✔ Add Python to PATH
+ Add Python to PATH
 
 3. Open the Project Folder
 
